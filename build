@@ -4,4 +4,4 @@ output_dir=$1
 
 curl https://raw.githubusercontent.com/schneems/static-vim/master/Makefile >> Makefile
 make
-cp -R vim-src $output_dir
+cp vim-src/src/vim $output_dir/vim
